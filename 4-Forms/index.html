@@ -7,58 +7,39 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Sign in</h1>
     <form action="/">
+            <p>Full Name:</p>
             <p>
                     <label>
-                            Name:
-                            <input type="text" name="name" placeholder="Artisanal Kale" required>
+                            <input type="text" name="fullName" placeholder="Enter full name" required>
                         </label>
             </p>  
             <p>
+            <p>Email:</p>
                     <label>
-                            Email:
-                            <input type="email" name="email" placeholder="bootstrap@example.com" required>
+                            <input type="email" name="email" placeholder="Enter email" required>
                     </label>
             </p>
             <p>
+            <p>Communication:</p>
                     <label>
-                            Password:
-                            <input type="password" name="password" required>
-                        </label>
-            </p>
-            <p>
-                    <label>
-                            Date:
-                            <input type="date" name="date" placeholder="11.04.2019" required>
-                        </label>
-            </p>
-            <p>
-                    <label>
-                            Time:
-                            <input type="time" name="time" required>
-                        </label>
-            </p>
-            <p>
-                    <label>
-                            Color:
-                            <input type="color" name="color" required>
+                            <input type="checkbox" name="communicationEmail">Email <br>
+                            <input type="checkbox" name="communicationSMS">SMS <br>
+                            <input type="checkbox" name="communicationPhone">Phone <br>
                     </label>
             </p>
             <p>
+            <p>User Group:</p>
                     <label>
-                            Range:
-                            <input type="range" name="range" required>
-                        </label>
+                            <input type="radio" name="userGroup" required>Sales Person
+                            <input type="radio" name="userGroup" required>Customer
+                    </label>
             </p>
+            <span>Please select user group</span>
             <p>
-                    <label>
-                            Description:
-                            <textarea name="Description" cols="30" rows="10" required></textarea>
-                        </label>
-            </p>
-            <p>
-                    <input type="submit" value="Register">
-                    <input type="reset" value="Clear">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Cancel">
             </p>
     </form>
 </body>
