@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:hover {
+    font-size: 40px;
+    transition-duration: 1s;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+img:hover {
+    width: 400px;
+    height: 400px;
+    transition-duration: 1s;
+}
