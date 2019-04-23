@@ -33,3 +33,7 @@
     height: 70px;
     font-size: 30px;
 }
+
+.ghost {
+    background-color: transparent;
+}
