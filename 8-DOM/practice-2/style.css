@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.article .document img.documentImage {
+    width: 20px;
+    height: 30px;
+}
+
+.article .details .user img.userImage {
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.article .details {
+    border-top: 1px solid #ccc;
+}
+
+main .article:first-child {
+    margin-left: 0px;
+}
+
+.description {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+}
