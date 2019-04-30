@@ -1,0 +1,78 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 700px;
+    width: 1000px;
+    position: relative;
+}
+main .opacity{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+    opacity: .6;
+}
+main .sliderBody{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 100px;
+    left: 70px;
+}
+main .sliderBody h1{
+    font-size: 80px;
+    margin: 0;
+}
+main .sliderBody p{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+main .sliderBody h1 span{
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 10px;
+}
+.slideLeft, .slideRight{
+    position: absolute;
+    font-size: 35px;
+    z-index: 4;
+}
+.slideRight{
+    right: 20px;
+    top: 50%;
+}
+.slideLeft{
+    left: 20px;
+    top: 50%;
+}
+
+main img {
+    height: 700px;
+    width: 1000px;
+}
+
+main .title{
+    padding: 0 10px;
+    font-size: 40px;
+    z-index: 4;
+    bottom: 20px;
+    left: 50%;
+    background-color: rgb(216, 74, 22);
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+}
